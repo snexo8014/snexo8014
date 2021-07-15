@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @snexo#8014 on discord
-- 👀 I’m interested in coding ethical and hacking
+- 👀 I’m interested in coding and ethical hacking
 - 🌱 I’m currently learning c++ and python 
 - 💞️ I’m looking to collaborate on nothing...
 - 📫 to reach me dm me, snexo#8014 on discord
