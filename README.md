@@ -1,4 +1,4 @@
-getgenv().SilentAimbotKey = 'b'; getgenv().AimlockKey = 'q';  _G.WEBHOOK_URL = '';
+getgenv().SilentAimbotKey = 'q'; getgenv().AimlockKey = 'q';  _G.WEBHOOK_URL = '';
 
 _G.PART = "UpperTorso"
 _G.PART2 = "UpperTorso"
