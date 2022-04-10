@@ -1,0 +1,47 @@
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/6W1ZqV53"))()
+
+
+--Main Menu
+---------------------------------------------------------------------------------------------------------------------
+local w = Library:Window("Criminality-TP")
+
+w:Button("Armory-1", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Armory-1"))()
+end)
+
+w:Button("Armory-2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Armory-2"))()
+end)
+
+w:Button("Vibe", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Vibe"))()
+end)
+
+w:Button("VibeCheck", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Vibe%20Check"))()
+end)
+
+w:Button("Thrift", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Thrift"))()
+end)
+
+w:Button("Warehouse", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Warehouse"))()
+end)
+
+w:Button("Pizza", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Pizza"))()
+end)
+
+w:Button("Vibin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Vibin"))()
+end)
+
+w:Button("Junkyard", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Junkyard"))()
+end)
+
+w:Button("Tower", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/snexo8014/snexo8014/main/Tower"))()
+end)
