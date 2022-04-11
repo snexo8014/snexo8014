@@ -1,0 +1,8 @@
+-- #region No Fail Lockpick
+        game.Players.LocalPlayer.PlayerGui.ChildAdded:Connect(function(Item)
+                if Item.Name == "LockpickGUI" then
+                    Item.MF["LP_Frame"].Frames.B1.Bar.UIScale.Scale = 10
+                    Item.MF["LP_Frame"].Frames.B2.Bar.UIScale.Scale = 10
+                    Item.MF["LP_Frame"].Frames.B3.Bar.UIScale.Scale = 10
+                end
+                    end)
