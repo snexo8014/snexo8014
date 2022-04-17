@@ -18,12 +18,9 @@ if data.StatusCode == 200 then
                 Mouse.Target:Destroy()
             end
         )
-
-        --Credit to who ever made this - venomous
-
         --credit to whoever made this lock ciz
         getgenv().AimPart = "HumanoidRootPart" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
-        getgenv().AimlockToggleKey = "l" -- Toggles Aimbot On/Off
+        getgenv().AimlockToggleKey = "Y" -- Toggles Aimbot On/Off
         getgenv().AimRadius = 25 -- How far away from someones character you want to lock on at
         getgenv().ThirdPerson = false -- Locking onto someone in your Third Person POV
         getgenv().FirstPerson = true -- Locking onto someone in your First Person POV
@@ -781,7 +778,7 @@ if data.StatusCode == 200 then
         Keybinds_2.Position = UDim2.new(-0.275590539, 0, 0.299212605, 0)
         Keybinds_2.Size = UDim2.new(0, 200, 0, 50)
         Keybinds_2.Font = Enum.Font.Nunito
-        Keybinds_2.Text = "l - Aimlock"
+        Keybinds_2.Text = "Y - Aimlock"
         Keybinds_2.TextColor3 = Color3.fromRGB(0, 0, 0)
         Keybinds_2.TextSize = 15.000
 
@@ -803,7 +800,7 @@ if data.StatusCode == 200 then
         Keybinds_4.Position = UDim2.new(-0.275590539, 0, 0.661417365, 0)
         Keybinds_4.Size = UDim2.new(0, 200, 0, 50)
         Keybinds_4.Font = Enum.Font.Nunito
-        Keybinds_4.Text = "p - GUI"
+        Keybinds_4.Text = "Z - GUI"
         Keybinds_4.TextColor3 = Color3.fromRGB(0, 0, 0)
         Keybinds_4.TextSize = 15.000
 
