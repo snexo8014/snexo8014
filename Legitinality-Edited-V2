@@ -800,7 +800,7 @@ if data.StatusCode == 200 then
         Keybinds_4.Position = UDim2.new(-0.275590539, 0, 0.661417365, 0)
         Keybinds_4.Size = UDim2.new(0, 200, 0, 50)
         Keybinds_4.Font = Enum.Font.Nunito
-        Keybinds_4.Text = "Z - GUI"
+        Keybinds_4.Text = "p - GUI"
         Keybinds_4.TextColor3 = Color3.fromRGB(0, 0, 0)
         Keybinds_4.TextSize = 15.000
 
