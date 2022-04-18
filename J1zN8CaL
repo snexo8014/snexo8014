@@ -15,25 +15,6 @@ local Aimlock, MousePressed, CanNotify = true, false, false;
 local AimlockTarget;
 getgenv().CiazwareUniversalAimbotLoaded = true
 
-getgenv().SeparateNotify = function(title, text, icon, time) 
-    SGui:SetCore("SendNotification",{
-        Title = title;
-        Text = text;
-        Duration = time;
-    })
-end
-
-getgenv().Notify = function(title, text, icon, time)
-    if CanNotify == true then 
-        if not time or not type(time) == "number" then time = 3 end
-        SGui:SetCore("SendNotification",{
-            Title = title;
-            Text = text;
-            Duration = time;
-        }) 
-    end
-end
-
 getgenv().WorldToViewportPoint = function(P)
     return Camera:WorldToViewportPoint(P)
 end
